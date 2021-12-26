@@ -25,7 +25,7 @@ const timeConfig = {
 	minute: 'numeric',
 };
 function getDateString(weather) {
-	return weather.date.toLocaleString('en', {
+	return weather.location.date.toLocaleString('en', {
 		...dateConfig,
 		...(weather.isCurrent ? timeConfig : {}),
 	});
