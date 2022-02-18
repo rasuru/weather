@@ -1,2 +1,2 @@
-.openode
-.openodeignore
+/backend/static
+/frontend/build
